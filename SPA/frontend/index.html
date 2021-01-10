@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+    <style>
+.nav-design {
+    background-color: lightgray;
+    padding: 16px;  
+}
+a {
+    color: black;
+    margin-left: 10px;
+}
+.button-text{
+    padding: 6px;
+    background-color: darkviolet;
+    border-radius: 6px;
+    color: #fff;
+}
+a.btn.active {
+    background-color: darkgray;
+    padding: 16px;
+}
+        </style>
+</head>
+<body>
+    <nav class="nav nav-design">
+        <a href="/" class="btn active" data-link>Create Server</a>
+        <a href="/view-servers" class="btn" data-link>View Server</a>
+    </nav>
+    <div id="app"></div>
+    <script type="module" src="/static/js/index.js"></script>
+</body>
+</html>
